@@ -23,7 +23,7 @@ const projects = [
     technologies: ["React", "Node.js", "MongoDB", "Express.js", "Bootstrap"],
     image: EcommerceIMG ,
     github: "https://github.com/eng-Mahmoud-Khalifa",
-    demo: "#",
+    demo: "https://github.com/eng-Mahmoud-Khalifa/Online-Shopping-Application-Angular-",
     featured: true,
   },
   {
