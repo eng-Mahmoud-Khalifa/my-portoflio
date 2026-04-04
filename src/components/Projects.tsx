@@ -1,6 +1,8 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import go from "@/assets/go.png";
+import movieImg from "@/assets/movie.jpg";
+import EcommerceIMG from "@/assets/e-commerce.png";
 import { ExternalLink, Github, ChevronRight } from "lucide-react";
 
 const projects = [
@@ -19,7 +21,7 @@ const projects = [
     description:
       "Full-featured e-commerce platform with product listing, shopping cart, checkout flow, and user authentication. Built with modern best practices.",
     technologies: ["React", "Node.js", "MongoDB", "Express.js", "Bootstrap"],
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+    image: EcommerceIMG ,
     github: "https://github.com/eng-Mahmoud-Khalifa",
     demo: "#",
     featured: true,
@@ -29,8 +31,8 @@ const projects = [
     description:
       "Dynamic movie browsing application with search, favorites, and detailed movie information. Uses public movie API for real-time data.",
     technologies: ["Next.js", "React", "Bootstrap", "REST API", "LocalStorage"],
-    image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&h=400&fit=crop",
-    github: "https://github.com/eng-Mahmoud-Khalifa",
+    image: movieImg,
+    github: "https://github.com/eng-Mahmoud-Khalifa/-Movies-App",
     demo: "#",
     featured: true,
   },

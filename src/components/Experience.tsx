@@ -11,24 +11,29 @@ const experiences = [
     description: [
       "Learned and applied React.js and Node.js in building projects",
       "Worked with team members on real-world tasks and debugging",
-      "Intensive training on full-stack development with MERN stack",
+      "Intensive training on full-stack development with MEARN stack",
     ],
     icon: GraduationCap,
     color: "primary",
   },
-  {
+   {
     type: "work",
-    title: "Technical Support",
-    organization: "Telecom Egypt",
-    period: "2022 – Present",
+    title: "Network Support Engineer",
+    organization: "El Arabia company ",
+    period: "2026 – Present",
     description: [
-      "Providing technical support and problem resolution",
-      "Customer service and communication skills development",
-      "Technical troubleshooting and system maintenance",
+      "Configure and manage network devices",
+      "Strong in TCP/IP and subnetting",
+      "Troubleshoot network issues",
+      "Deploy LAN/WAN networks",
+      "Work with CCTV and biometric systems",
+      "Ensure network stability and performance",
+      
     ],
     icon: Briefcase,
     color: "accent",
   },
+ 
 ];
 
 const certificates = [

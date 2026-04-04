@@ -10,6 +10,12 @@ const contactInfo = [
     value: "mahmoudkhalifaasas@gmail.com",
     href: "mailto:mahmoudkhalifaasas@gmail.com",
   },
+   {
+    icon: Phone,
+    label: "whatsapp",
+    value: "+20 1143487770",
+    href: "https://wa.me/201143487770",
+  },
   {
     icon: Phone,
     label: "Phone",
