@@ -29,7 +29,7 @@ const socialLinks = [
     icon: Github,
     label: "GitHub",
     href: "https://github.com/eng-Mahmoud-Khalifa",
-  },
+  }, 
   {
     icon: Linkedin,
     label: "LinkedIn",

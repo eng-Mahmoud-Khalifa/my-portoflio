@@ -1,8 +1,19 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
+import go from "@/assets/go.png";
 import { ExternalLink, Github, ChevronRight } from "lucide-react";
 
 const projects = [
+   {
+    title: "Egypt Go Web App",
+    description:
+      "A web application for exploring and discovering tourist attractions in Egypt. Built with modern best practices.",
+    technologies: ["Next.js", "Node.js", "MongoDB", "Express.js", "tailwindcss"],
+    image: go,
+    github: "https://github.com/eng-Mahmoud-Khalifa/egyptgo-main",
+    demo: "https://egyptgo.vercel.app/",
+    featured: true,
+  },
   {
     title: "E-Commerce Web App",
     description:
@@ -23,16 +34,7 @@ const projects = [
     demo: "#",
     featured: true,
   },
-  {
-    title: "Plant Disease Recognition",
-    description:
-      "AI-powered desktop application that detects plant diseases from images and provides treatment recommendations. Graduation project with Excellent grade.",
-    technologies: ["Python", "Machine Learning", "Image Processing", "AI"],
-    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop",
-    github: "https://github.com/eng-Mahmoud-Khalifa",
-    demo: "#",
-    featured: false,
-  },
+  
 ];
 
 const Projects = () => {
