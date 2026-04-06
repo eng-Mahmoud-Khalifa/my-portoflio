@@ -74,6 +74,14 @@ const Navbar = () => {
             <div className="flex items-center gap-4">
               <div className="hidden md:flex items-center gap-3">
                 <motion.a
+              href="mailto:mahmoudkhalifaasas@gmail.com"
+              className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-secondary transition-all"
+              whileHover={{ scale: 1.1, rotate: 5 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <Mail size={20} />
+            </motion.a>
+                <motion.a
                   href="https://github.com/eng-Mahmoud-Khalifa"
                   target="_blank"
                   rel="noopener noreferrer"
